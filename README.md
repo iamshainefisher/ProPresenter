@@ -23,15 +23,15 @@ These setup instructions are a work-in-progress.
 
 ```
 sudo apt-get install git
-git clone https://github.com/anthonyeden/ProPresenter-Lyrics-HTML/
-echo "@/home/pi/ProPresenter-Lyrics-HTML/start.sh" >> .config/lxsession/LXDE-pi/autostart
-cp ProPresenter-Lyrics-HTML/config-sample.js ProPresenter-Lyrics-HTML/config.js
+git clone https://github.com/iamshainefisher/ProPresenter/
+echo "@/home/screen/ProPresenter/start.sh" >> /home/screen/.config/lxsession/LXDE-pi/autostart
+cp ProPresenter/config-sample.js ProPresenter/config.js
 ``` 
 
 4. To edit the configuration, run this command:
 
 ```
-nano ProPresenter-Lyrics-HTML/config.js
+nano ProPresenter/config.js
 ```
 
   Ensure you update the IP Address, Port Number & Password for your ProPresenter computer. On your ProPresenter computer, this can be setup in _Preferences > Network_ of your ProPresenter PC.
@@ -45,7 +45,7 @@ nano ProPresenter-Lyrics-HTML/config.js
 1. Open Terminal and run the following commands:
 
 ```
-cd ~/ProPresenter-Lyrics-HTML
+cd ~/ProPresenter
 git pull
 ```
 
